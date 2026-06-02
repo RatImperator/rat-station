@@ -8078,3 +8078,103 @@ Entries:
         trickery and deceptive behavior.
   id: 925
   time: '2026-04-26T20:12:24.0000000+00:00'
+- author: willowzeta
+  changes:
+    - type: Tweak
+      message: >-
+        Command and CC jobs no longer roll first, instead rolling as all other
+        jobs do.
+  id: 926
+  time: '2026-04-26T20:41:02.0000000+00:00'
+- author: Scrambledking
+  changes:
+    - type: Fix
+      message: Targeted Cigarette Packs, not Cartons
+  id: 927
+  time: '2026-04-27T16:28:08.0000000+00:00'
+- author: ALooseGoose
+  changes:
+    - type: Tweak
+      message: EXPERIMENTAL - DAGD Traitors now start with 50 extra TC
+    - type: Tweak
+      message: >-
+        EXPERIMENTAL - DAGD Traitors can now buy stronger items previously
+        exclusive to Nuke and War ops
+  id: 928
+  time: '2026-04-27T16:29:10.0000000+00:00'
+- author: ThatFrog
+  changes:
+    - type: Tweak
+      message: Thief now starts with a Thieving Beacon.
+    - type: Tweak
+      message: Updated Thief Greeting to mention having a Thieving Beacon.
+  id: 929
+  time: '2026-04-29T01:18:39.0000000+00:00'
+- author: Rainbeon
+  changes:
+    - type: Tweak
+      message: >-
+        Fixed Bagel's Brig vacuuming up the entire station's air supply
+        (probably).
+    - type: Tweak
+      message: >-
+        Added a missing Camera Router for Engineering, replacing a table +
+        cables in the CE's room, on Bagel.
+    - type: Tweak
+      message: >-
+        Added Cameras to the Nuclear Reactor, Supermatter, Atmos, and HFR area
+        on Bagel.
+    - type: Tweak
+      message: Removed the n1984 from HoS's room on Bagel.
+  id: 930
+  time: '2026-04-29T03:29:58.0000000+00:00'
+- author: Queer-Cats
+  changes:
+    - type: Fix
+      message: Zombies zombify when they are killed
+    - type: Fix
+      message: Fixed Error log spamming from invalid jobicon
+  id: 931
+  time: '2026-04-29T03:31:48.0000000+00:00'
+- author: ALooseGoose and WiZ88
+  changes:
+    - type: Fix
+      message: refactored flavor text system for better maintainability
+  id: 932
+  time: '2026-05-06T20:01:25.0000000+00:00'
+- author: Dusty-Plant
+  changes:
+    - type: Tweak
+      message: Fixed some issues for Bramble Station
+  id: 933
+  time: '2026-05-06T20:06:19.0000000+00:00'
+- author: Terkala
+  changes:
+    - type: Fix
+      message: Fixed a chanting bug with Blood Cult
+  id: 934
+  time: '2026-05-10T06:43:04.0000000+00:00'
+- author: TrixxedHeart
+  changes:
+    - type: Fix
+      message: >-
+        Core: Fixed missing HV wire in Engineering that disconnected the entire
+        power grid from the singulo/tesla
+    - type: Fix
+      message: 'Core: Fixed routing for the mail system'
+    - type: Fix
+      message: 'Core: Fixed incorrect access on psychologist''s door'
+    - type: Fix
+      message: 'Core: Fixed duplicate beacons on the grav gen'
+    - type: Add
+      message: 'Core: Added missing Service intercom to Chapel'
+    - type: Add
+      message: 'Core: Added missing box of hugs to Theater'
+  id: 935
+  time: '2026-05-22T20:30:19.0000000+00:00'
+- author: Dusty-Plant
+  changes:
+    - type: Fix
+      message: Hopefully fixed Bramble's spacing issues.
+  id: 936
+  time: '2026-05-28T21:26:29.0000000+00:00'
